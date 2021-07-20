@@ -1,4 +1,7 @@
 # PumpkinPI_3
+
+WIP current project will be updated and edited regulaly 
+
 Instructions for creating the PumpkinPi a Raspberry Pi based Wireless MiTM device using the Pumkin Framework
 
 
