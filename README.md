@@ -30,4 +30,4 @@ now, if you got the message done, nice. the next step is install the wp3:
 ```
  $ sudo python3 setup.py install
 ```
-From <https://wifipumpkin3.github.io/docs/getting-started> ![image](https://user-images.githubusercontent.com/60553334/126320139-72ff57e7-51b7-4609-98ac-0589b0bafb42.png)
+
