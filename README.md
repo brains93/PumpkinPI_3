@@ -85,3 +85,11 @@ now, if you got the message done, nice. the next step is install the wp3:
  $ sudo python3 setup.py install
 ```
 
+Thats it! you can now start Wifi Pumpkin
+
+```
+sudo wifipumpkin3
+
+```
+
+For information on using Wifi Pumpkin see [here](https://wifipumpkin3.github.io/docs/getting-started#usage)
