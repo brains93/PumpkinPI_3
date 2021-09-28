@@ -31,6 +31,8 @@ If using a 3.7v Lipo you will need a 3v to 5v boost converter to feed the Pi 5v 
 ![20210810_140501](https://user-images.githubusercontent.com/60553334/128872512-820a877f-e4fc-441c-b337-9fe0f3cc2a49.jpg)
 </details>
 
+## Video of hardware
+https://www.youtube.com/watch?v=kuff6GiFd7M
 
 <details>
   <summary>links to hardware</summary>
