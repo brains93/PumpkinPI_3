@@ -1,9 +1,12 @@
 <!DOCTYPE html>
+{% load static %}
 <html>
 <head>
- <title>Pumpkin Pi 3</title> <link rel="stylesheet" href="{{ url_for('static', filename='home.css') }}">
+ <title>Pumpkin Pi 3</title> <link rel="stylesheet" href="{% static 'gui/home.css' %}">
 </head>
-<img src="{{url_for('static', filename='logo.png')}}" class="center"/>
+<img src="{% static 'gui/logo.png' %}" class="center"/>
+
+
 <body>
 
   <h2 align="center">Enter WiFi details</h2>
@@ -13,8 +16,8 @@
   <br>
   <form align="center" action="/connect">
     <select name="interface"  method="GET" action="/connect">
-      <option value="{{interfaces[0]}}" selected>{{interfaces[0]}}</option>
-      {% for interface in interfaces[1:] %}
+      <option value="{{ interfaces.0 }}" selected>{{ interfaces.0 }}</option>
+      {% for interface in interfaces %}
         <option value="{{interface}}">{{interface}}</option>
       {% endfor %}
     </select>
@@ -25,8 +28,14 @@
     <input type="text" id="password" name="password"><br><br>
     <input type="submit" value="Submit">
   </form> 
-  <form align="center" action= "/start">
-    <button type="start WiFi Pumpkin" value="start WiFi Pumpkin">
-  </form>
+  <p align="center"><a href=dashboard ><button>dashboard</button></a></p>
+    <button type="start WiFi Pumpkin" value="start WiFi Pumpkin" action="/dashboard">
+  
 </body>
+<body>
+
+  <h1>This is an example of some more body </h1>
+</body>
+
+
 </html>
