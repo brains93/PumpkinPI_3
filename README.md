@@ -61,7 +61,7 @@ https://www.youtube.com/watch?v=kuff6GiFd7M
 ## Building software. using Wifi Pumpkin3 framework 
 
 ```
- $ sudo apt install libssl-dev libffi-dev build-essential hoatapd libpcap-dev
+ $ sudo apt install libssl-dev libffi-dev build-essential hostapd libpcap-dev
  $ git clone https://github.com/P0cL4bs/wifipumpkin3.git
  $ cd wifipumpkin3
 ```
